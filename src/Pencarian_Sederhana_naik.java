@@ -8,7 +8,7 @@
  *
  * @author USER
  */
-import javax.*;
+import java.*;
 import javax.swing.*;
 
 public class Pencarian_Sederhana_naik {
@@ -21,7 +21,8 @@ public class Pencarian_Sederhana_naik {
         System.out.println("");
         System.out.println("Program pencarian data sederhana");
         System.out.println("=================================");
-        for(i=0;i<11;i++);
+        System.out.println("");
+        for(i=0;i<11;i++)
         System.out.print(DataArray[i]+" ");   
         System.out.print("");   
         System.out.println(""); 
@@ -45,7 +46,7 @@ public class Pencarian_Sederhana_naik {
         System.out.println("Data di temukan pada elemen ke"+(i+1)); 
         else    
         System.out.println("Data tidak di temukan");    
-        System.out.println("                          ~~~~~~~");
+        System.out.println("~~~~~~~");
         
         System.out.println("");    
         System.out.println("");    
